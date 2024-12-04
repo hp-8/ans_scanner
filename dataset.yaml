@@ -1,0 +1,6 @@
+path: /Users/hp_8/Desktop/work/ans_scanner/data
+train: images/train
+val: images/val
+test: images/test
+nc: 6
+names: ['a', 'b', 'c', 'd', 'e', 'none']
