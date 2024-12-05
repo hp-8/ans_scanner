@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload PDFs</title>
+    <title>Upload PDFs and Answer Key</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,11 +42,15 @@
 </head>
 <body>
 
-    <h1>Upload PDF Answer Sheets</h1>
+    <h1>Upload PDF Answer Sheets and Answer Key</h1>
     <div class="form-container">
         <form action="/upload" method="POST" enctype="multipart/form-data">
             <label for="files">Select PDF files to upload:</label>
-            <input type="file" name="files[]" id="files" multiple>
+            <input type="file" name="files[]" id="files" multiple required>
+            
+            <label for="answer_key">Upload Answer Key (Text File):</label>
+            <input type="file" name="answer_key" id="answer_key" required>
+            
             <button type="submit">Upload Files</button>
         </form>
     </div>
