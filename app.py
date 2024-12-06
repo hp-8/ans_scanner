@@ -59,18 +59,22 @@ def upload_files():
             return jsonify({'error': f'Invalid file type: {file.filename}.'}), 400
 
     # Save results to CSV
+    
     csv_path = os.path.join(RESULTS_FOLDER, 'results.csv')
     with open(csv_path, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['Image', 'Predicted Answers', 'Correctness', 'Answer Key'])
+        writer.writerow(['Page', 'Enrollment Number', 'Image', 'Predicted Answers', 'Correctness', 'Answer Key', 'Total Score'])
         for result in results:
             for i in range(len(result['predicted_answers'])):
                 writer.writerow([
+                    result['page'],
+                    result['enrollment'],  # Add enrollment number to CSV
                     result['image'],
                     result['predicted_answers'][i],
                     '✅' if result['correctness'][i] else '❌',
-                    result['answer_key'][i]
-                ])
+                    result['answer_key'][i],
+                    result['total_score']
+            ])
 
     return render_template('result.html', results=results, csv_path='results.csv')
 

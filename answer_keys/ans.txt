@@ -1,50 +1,148 @@
-1. B  
-2. A  
-3. C  
-4. D  
-5. E  
-6. A  
-7. C  
-8. B  
-9. D  
-10. E  
-11. A  
-12. D  
-13. B  
-14. E  
-15. C  
-16. A  
-17. D  
-18. B  
-19. C  
-20. E  
-21. A  
-22. C  
-23. D  
-24. E  
-25. B  
-26. A  
-27. D  
-28. C  
-29. E  
-30. A  
-31. C  
-32. B  
-33. D  
-34. E  
-35. A  
-36. C  
-37. B  
-38. E  
-39. D  
-40. A  
-41. C  
-42. B  
-43. E  
-44. D  
-45. A  
-46. C  
-47. B  
-48. E  
-49. D  
-50. A  
+e
+d
+c
+c
+e
+e
+d
+d
+d
+e
+e
+e
+d
+e
+d
+e
+c
+d
+e
+c
+c
+d
+e
+b
+d
+d
+c
+d
+d
+d
+e
+d
+d
+b
+d
+c
+e
+d
+e
+b
+d
+e
+b
+b
+e
+b
+c
+d
+d
+b
+b
+e
+c
+d
+b
+b
+d
+c
+e
+e
+d
+b
+b
+b
+d
+b
+b
+e
+c
+c
+d
+d
+b
+b
+d
+d
+d
+d
+d
+d
+a
+b
+c
+b
+c
+d
+b
+c
+b
+d
+b
+c
+b
+a
+b
+b
+d
+b
+e
+a
+d
+d
+d
+b
+b
+a
+b
+a
+d
+b
+a
+b
+e
+b
+d
+b
+d
+d
+b
+a
+b
+c
+d
+d
+a
+d
+b
+a
+b
+b
+b
+d
+e
+e
+e
+b
+b
+e
+d
+b
+e
+c
+d
+b
+e
+e
+d
+a

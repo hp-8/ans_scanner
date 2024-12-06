@@ -28,3 +28,13 @@ def detect_answers(image_path):
             'class_id': int(class_id)  # Convert to integer
         })
     return parsed_results
+
+counter = 1
+
+def detect_student_Id():
+    global counter
+    if counter > 15:
+        counter = 1
+    enrollment_number = f"2024390{counter:02d}"
+    counter += 1
+    return enrollment_number
